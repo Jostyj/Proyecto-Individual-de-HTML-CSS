@@ -1,0 +1,165 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+</style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+</style>
+
+letra no.1 font-family: 'Bebas Neue', cursive;
+letra no.2 font-family: 'Sedgwick Ave Display', cursive;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title2{
+    text-align: center;
+}
+#iq{
+    text-align: left;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color:black;
+    font-size: medium;
+    padding-left: 20px;
+    
+}
+body{
+    background:  yellow;
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    background: #BF1ED3;
+    width: 100%;
+    clear: both;
+    display: table;
+}
+
+ .img-title{
+    width: 30rem;
+    height: 100px;
+    float: right;
+    padding: 8px;
+ }
+ .menu{
+    width: auto;
+    margin: 0 auto;
+ }
+nav {
+    float: left;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    float: left;
+    padding: 20px 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+nav ul li a::before{
+    display: block;
+    width: 100%;
+    background: #A205C4;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+}
+
+#map.title{
+    color: #A205C4;
+}
+/*Creando el diseño de la tabla*/
+.titles-chedule{
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    display: block;
+}
+
+/*Asignando estilo a las letras del body*/
+.mat-title{
+    color: rgb(8, 4, 4);
+    font-size: 15px;
+}
+/*Asignando css a tabla de horario de atención*/
+table{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+caption{
+    padding-bottom: 10px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+td,th{
+    border: 2px solid black;
+    padding-left: 20px ;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-info{
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.icons-margen{
+    color: yellow;
+    text-align: center;
+}
+#map{
+    text-align: center;
+    padding: 8px;
+}
+#letter-map
+{
+    font-family: 'Anton', sans-serif;
+    text-shadow: 12px;
+    padding: auto 12px;
+}
+
+
+/* Aqui empieza la parte de la edición de Química.html*/
+.contenedor{
+    display: flex;
+    justify-content: center;
+
+}
+
+.q-g{
+    margin-left: 25px; 
+    height: 150px;
+    width: 350px;
+    padding-bottom: auto;
+    padding-left: auto;
+    float: center;
+    border-style: solid;
+}
+
+/*Aqui empieza la edicion de fisicoquimica*/
+
+.fisico{
+    text-align: center;
+    }
+
+/* Aqui empieza la seccion del footer*/
+.footer-info{
+    text-align: center;
+} 
